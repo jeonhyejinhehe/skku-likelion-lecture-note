@@ -6,7 +6,7 @@ export default function ApiPractice() {
     const [게시글제목, 게시글제목변경]=useState("");
     const [게시글내용, 게시글내용변경]=useState("");
     const [error, setError]=useState("");
-    const [response, setResponse]=useState("");
+    const [response, setResponse]=useState("");;
 
     const handlePostlog = () => {
         //https://jsonplaceholder.typicode.com/
